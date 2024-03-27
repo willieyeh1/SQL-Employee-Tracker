@@ -40,7 +40,7 @@ inquirer
         }else if (data.selection==='Add Department'){
             tracker = addDepartment()
         }else if (data.selection==='Quit'){
-            return ('YAY')
+            return (console.log('YAY'))
         }})};
         main()
     function addEmployee(){
